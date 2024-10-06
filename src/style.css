@@ -9,7 +9,7 @@ body {
 }
 
 .titulo {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .tarjeta {
@@ -18,6 +18,10 @@ body {
 
 .tarjeta #excusa {
   margin-top: 50px;
+}
+
+img:hover {
+  transform: scale(1.2);
 }
 
 #genButton {
