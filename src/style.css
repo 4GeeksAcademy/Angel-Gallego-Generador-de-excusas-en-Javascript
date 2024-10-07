@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("https://i.etsystatic.com/42876221/r/il/123b70/5073268475/il_fullxfull.5073268475_95mt.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.titulo {
+  padding-top: 40px;
+}
+
+.tarjeta {
+  margin-top: 10%;
+}
+
+.tarjeta #excusa {
+  margin-top: 50px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+#genButton {
+  font-weight: bold;
+  border: 2px solid rgb(75, 85, 179);
+  background-color: transparent;
+  border-radius: 20px;
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+#genButton:hover {
+  transform: scale(1.3);
+  background-color: rgb(224, 231, 125);
+  box-shadow: 13px 15px 37px rgba(16, 227, 255, 0.945);
+}
+
+.titulo {
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(245, 138, 16);
+}
+
+#excusa {
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(245, 138, 16);
+}
